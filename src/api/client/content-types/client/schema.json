@@ -24,9 +24,6 @@
     "address": {
       "type": "string"
     },
-    "code_postal": {
-      "type": "string"
-    },
     "email": {
       "type": "email"
     },

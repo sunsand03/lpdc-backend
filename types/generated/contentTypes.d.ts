@@ -501,7 +501,6 @@ export interface ApiClientClient extends Struct.CollectionTypeSchema {
     lastname: Schema.Attribute.String;
     phone: Schema.Attribute.String;
     address: Schema.Attribute.String;
-    code_postal: Schema.Attribute.String;
     email: Schema.Attribute.Email;
     instructions: Schema.Attribute.Text;
     orders: Schema.Attribute.Relation<'oneToMany', 'api::order.order'>;
